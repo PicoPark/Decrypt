@@ -5,11 +5,11 @@ class Scytale:
 
 	def findKey(text):
 
-		return 8
+		return 0
 
 	def decode(text,key=0):
-		
-		if(key=0):
+
+		if(key==0):
 			key = findKey(text)
 		result = ""
 		for i in range(text):
