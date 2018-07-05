@@ -3,18 +3,11 @@ import sys
 
 class Scytale:
 
-	def findKey(text):
-
-		return 0
-
-	def decode(text,key=0):
-
-		if(key==0):
-			key = findKey(text)
+	def decode(text,key):
 		result = ""
-		for i in range(text):
+		for i in range(0,key):
 			for j in range (i,len(text), key):
-				result = result+text[j]
+				result+= text[j]
 
 
 		return result
