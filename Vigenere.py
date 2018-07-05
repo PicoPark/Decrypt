@@ -4,6 +4,7 @@ import sys
 class Vigenere:
 
 
+
 	def decode(text, secret):
 		result = ""
 	    for i , c in enumerate(text) :

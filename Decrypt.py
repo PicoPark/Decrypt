@@ -10,8 +10,10 @@ def main():
 
 	if(text.isDigit()):
 		# essayer atbash ou polybe
+		
+		
 	else:
-		#essayer cesar, scytale ou vigenere
+		#essayer cesar, scytale ou vigenere (optionnel)
 
 
 	print(Polybe.Polybe.decode("31111342543544342242113523241511511513353431541215"))
